@@ -122,8 +122,10 @@
     --heading-span-foreground: var(--accent-base);
     --bento-card-foreground: var(--white);
     --bento-card-surface: var(--primary-base);
-
+    --bento-card-padding: 48px;
     --bento-card-horizontal-alignment: center;
+    --bento-card-image-width: 70%;
+    --bento-card-gap: 16px;
   }
 }
 
