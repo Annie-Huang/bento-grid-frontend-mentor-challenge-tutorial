@@ -106,12 +106,9 @@
 
   .bento-grid > :nth-child(1) {
     --heading-font-size: var(--fs-xl);
+    --heading-span-foreground: var(--accent-base);
     --bento-card-foreground: var(--white);
     --bento-card-surface: var(--primary-base);
-
-    span {
-      color: var(--accent-base);
-    }
   }
 }
 
