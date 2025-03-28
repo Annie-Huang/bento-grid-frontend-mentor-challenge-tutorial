@@ -115,6 +115,8 @@
     --heading-span-foreground: var(--accent-base);
     --bento-card-foreground: var(--white);
     --bento-card-surface: var(--primary-base);
+
+    --bento-card-horizontal-alignment: center;
   }
 }
 
