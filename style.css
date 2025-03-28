@@ -103,6 +103,16 @@
     padding: var(--bento-card-padding, 32px);
     border-radius: var(--bento-card-border-radius, 21px);
   }
+
+  .bento-grid > :nth-child(1) {
+    --heading-font-size: var(--fs-xl);
+    --bento-card-foreground: var(--white);
+    --bento-card-surface: var(--primary-base);
+
+    span {
+      color: var(--accent-base);
+    }
+  }
 }
 
 @layer utilities {
