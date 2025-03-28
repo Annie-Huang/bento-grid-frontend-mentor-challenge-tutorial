@@ -24,3 +24,4 @@ PS C:\react> npm create vite@latest bento-grid-frontend-mentor-challenge-tutoria
 
 
 PS C:\react\bento-grid-frontend-mentor-challenge-tutorial> npm install
+PS C:\react\bento-grid-frontend-mentor-challenge-tutorial> npm run prettier:write
