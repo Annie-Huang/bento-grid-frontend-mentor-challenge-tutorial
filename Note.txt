@@ -1,0 +1,26 @@
+Responsive Bento Grid | CSS Tutorial | Frontend Mentor Challenge (https://www.youtube.com/watch?v=h4dHvo09cG4)
+
+https://www.frontendmentor.io/?via=kevinpowell
+
+https://github.com/kevin-powell/bento-grid-frontend-mentor-challenge-tutorial
+https://github.com/Annie-Huang/bento-grid-frontend-mentor-challenge-tutorial
+
+-----------------------------------------------------------------------------------
+
+PS C:\react> npm create vite@latest bento-grid-frontend-mentor-challenge-tutorial
+
+> npx
+> cva bento-grid-frontend-mentor-challenge-tutorial
+
+│
+◇  Select a framework:
+│  Vanilla
+│
+◇  Select a variant:
+│  JavaScript
+│
+◇  Scaffolding project in C:\react\bento-grid-frontend-mentor-challenge-tutorial...
+
+
+
+PS C:\react\bento-grid-frontend-mentor-challenge-tutorial> npm install
