@@ -130,6 +130,7 @@
   }
 
   .bento-grid > :nth-child(2) {
+    /* Prefer to keep the document structure always be <h1> first and then <img> and just use order to control the display order. */
     --bento-card-image-order: -1;
 
     /* fixing shadow issue in asset */
