@@ -110,6 +110,13 @@
     text-align: var(--bento-card-horizontal-alignment, start);
   }
 
+  .bento-grid img {
+    /* Allow us to go over 100% when we change the value */
+    max-width: var(--bento-card-image-width, 100%);
+    width: var(--bento-card-image-width, 100%);
+    order: var(--bento-card-image-order);
+  }
+
   .bento-grid > :nth-child(1) {
     --heading-font-size: var(--fs-xl);
     --heading-span-foreground: var(--accent-base);
