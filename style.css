@@ -114,6 +114,7 @@
     /* Allow us to go over 100% when we change the value */
     max-width: var(--bento-card-image-width, 100%);
     width: var(--bento-card-image-width, 100%);
+    /* this control the image whether it's in normal order or be the first one in the container */
     order: var(--bento-card-image-order);
   }
 
@@ -126,6 +127,10 @@
     --bento-card-horizontal-alignment: center;
     --bento-card-image-width: 70%;
     --bento-card-gap: 16px;
+  }
+
+  .bento-grid > :nth-child(2) {
+    --bento-card-image-order: -1;
   }
 }
 
