@@ -102,6 +102,12 @@
     background-color: var(--bento-card-surface, var(--white));
     padding: var(--bento-card-padding, 32px);
     border-radius: var(--bento-card-border-radius, 21px);
+
+    display: grid;
+    gap: var(--bento-card-gap, 32px);
+    align-content: var(--bento-card-vertical-alignment, start);
+    justify-items: var(--bento-card-horizontal-alignment, start);
+    text-align: var(--bento-card-horizontal-alignment, start);
   }
 
   .bento-grid > :nth-child(1) {
