@@ -131,6 +131,16 @@
 
   .bento-grid > :nth-child(2) {
     --bento-card-image-order: -1;
+
+    /* fixing shadow issue in asset */
+    > img {
+      filter: drop-shadow(0 0 1rem hsl(0 0% 0% / 0.25));
+      /* Compared the drop-shadow with the box-shadow and you will see the different between the two */
+      /*box-shadow: 0 0 1rem hsl(0 0% 0%);*/
+
+      /* this only fix the left and right side of the <img>, not between the two pills */
+      border-radius: 100vw;
+    }
   }
 }
 
