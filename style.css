@@ -97,6 +97,24 @@
     gap: 24px;
     max-inline-size: 1200px;
     margin-inline: auto;
+
+    grid-template-areas:
+      'one'
+      'two'
+      'three'
+      'four'
+      'five'
+      'six'
+      'seven'
+      'eight';
+
+    @media (width > 960px) {
+      grid-template-areas:
+        'seven one one four'
+        'seven two three four'
+        'eight two three four'
+        'eight six five five';
+    }
   }
 
   .bento-grid > * {
