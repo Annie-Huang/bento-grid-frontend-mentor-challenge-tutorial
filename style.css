@@ -223,6 +223,11 @@
     --bento-card-image-width: 60%;
 
     grid-area: seven;
+
+    @media (width > 960px) {
+      --bento-card-image-width: 100%;
+      --bento-card-vertical-alignment: center;
+    }
   }
 
   .bento-grid > :nth-child(8) {
