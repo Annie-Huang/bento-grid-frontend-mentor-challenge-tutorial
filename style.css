@@ -246,6 +246,11 @@
     --bento-card-image-width: 60%;
 
     grid-area: eight;
+
+    @media (width > 960px) {
+      --bento-card-image-width: 105%;
+      --bento-card-vertical-alignment: center;
+    }
   }
 }
 
