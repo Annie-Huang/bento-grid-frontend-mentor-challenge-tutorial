@@ -95,6 +95,8 @@
   .bento-grid {
     display: grid;
     gap: 24px;
+    max-inline-size: 1200px;
+    margin-inline: auto;
   }
 
   .bento-grid > * {
