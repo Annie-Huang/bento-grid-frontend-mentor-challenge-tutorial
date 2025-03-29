@@ -103,6 +103,8 @@
     padding: var(--bento-card-padding, 32px);
     border-radius: var(--bento-card-border-radius, 21px);
 
+    overflow: clip;
+
     display: grid;
     gap: var(--bento-card-gap, 32px);
     align-content: var(--bento-card-vertical-alignment, start);
@@ -141,6 +143,14 @@
 
       /* this only fix the left and right side of the <img>, not between the two pills */
       border-radius: 100vw;
+    }
+  }
+
+  .bento-grid > :nth-child(3) {
+    --bento-card-surface: var(--accent-base);
+
+    > img {
+      margin-bottom: -120px;
     }
   }
 }
