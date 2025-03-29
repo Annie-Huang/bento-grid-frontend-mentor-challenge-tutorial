@@ -167,6 +167,13 @@
     --bento-card-image-width: 75%;
     --bento-card-image-order: -1;
   }
+
+  .bento-grid > :nth-child(6) {
+    --heading-font-size: var(--fs-xl);
+    --heading-span-display: block;
+    --heading-span-font-size: var(--fs-reg);
+    --bento-card-image-width: 60%;
+  }
 }
 
 @layer utilities {
