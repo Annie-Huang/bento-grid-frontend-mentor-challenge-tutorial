@@ -20,7 +20,7 @@
   --off-white: hsl(0, 0%, 96%);
   --black: hsl(0, 0%, 7%);
 
-  --fs-reg: 1.25rem;
+  --fs-reg: 1.75rem;
 
   --fs-md: 2.25rem;
   --fs-lg: 3rem;
@@ -154,6 +154,11 @@
 
       margin-bottom: -55px;
     }
+  }
+
+  .bento-grid > :nth-child(4) {
+    --bento-card-horizontal-alignment: center;
+    --bento-card-surface: var(--primary-subdued);
   }
 }
 
