@@ -20,7 +20,7 @@
   --off-white: hsl(0, 0%, 96%);
   --black: hsl(0, 0%, 7%);
 
-  --fs-reg: 1.75rem;
+  --fs-reg: 1.5rem;
 
   --fs-md: 2.25rem;
   --fs-lg: 3rem;
@@ -196,6 +196,13 @@
     --bento-card-image-order: -1;
 
     grid-area: five;
+
+    @media (width > 960px) {
+      --bento-card-gap: 16px;
+      --bento-card-image-width: 100%;
+      --bento-card-horizontal-alignment: start;
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   .bento-grid > :nth-child(6) {
