@@ -198,6 +198,12 @@
     --bento-card-surface: var(--primary-subdued);
 
     grid-area: four;
+
+    @media (width > 960px) {
+      --bento-card-image-width: 180%;
+      --bento-card-horizontal-alignment: start;
+      --bento-card-vertical-alignment: center;
+    }
   }
 
   .bento-grid > :nth-child(5) {
