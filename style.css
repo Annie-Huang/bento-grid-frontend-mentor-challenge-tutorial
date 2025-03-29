@@ -181,6 +181,11 @@
     --bento-card-surface: var(--accent-subdued);
     --bento-card-image-width: 60%;
   }
+
+  .bento-grid > :nth-child(8) {
+    --bento-card-surface: var(--accent-base);
+    --bento-card-image-width: 60%;
+  }
 }
 
 @layer utilities {
