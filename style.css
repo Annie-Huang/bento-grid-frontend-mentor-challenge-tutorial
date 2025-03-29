@@ -150,7 +150,9 @@
     --bento-card-surface: var(--accent-base);
 
     > img {
-      margin-bottom: -120px;
+      --bento-card-image-width: 75%;
+
+      margin-bottom: -55px;
     }
   }
 }
