@@ -169,6 +169,10 @@
       /* this only fix the left and right side of the <img>, not between the two pills */
       border-radius: 100vw;
     }
+
+    @media (width > 960px) {
+      --bento-card-image-width: 150%;
+    }
   }
 
   .bento-grid > :nth-child(3) {
