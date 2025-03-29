@@ -184,6 +184,13 @@
     > img {
       margin-bottom: -55px;
     }
+
+    @media (width > 960px) {
+      --bento-card-image-width: 100%;
+      > img {
+        margin-bottom: -125px;
+      }
+    }
   }
 
   .bento-grid > :nth-child(4) {
