@@ -235,6 +235,10 @@
     --bento-card-image-width: 60%;
 
     grid-area: six;
+
+    @media (width > 960px) {
+      --bento-card-image-width: 80%;
+    }
   }
 
   .bento-grid > :nth-child(7) {
